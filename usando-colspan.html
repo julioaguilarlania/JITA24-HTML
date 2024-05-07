@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Mezclando celdas</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2">A1</td>
+                <td class="simple">A2</td>
+                <td class="simple">A3</td>
+            </tr>
+            <tr>
+                <td class="simple">B1</td>
+                <td colspan="2">B2</td>
+                <td class="simple">B3</td>
+            </tr>
+                </table>
+        <style>
+            table {
+                width: 400px;
+            }
+            td {
+                background-color: lightblue;
+                padding: 1ex;
+            }
+            td.simple {
+                width: 100px;
+                min-width: 100px;
+            }
+            td[colspan="2"] {
+                width: 200px;
+                min-width: 200px;
+            }
+        </style>
+    </body>
+</html>
