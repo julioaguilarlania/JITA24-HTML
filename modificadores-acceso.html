@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Modificadores de Acceso en Java</title>
+    </head>
+    <body>
+        <h1>Modificadores de Acceso en Java</h1>
+        <table>
+            <tr>
+                <th></th>
+                <th>public</th>
+                <th>protected</th>
+                <th>default</th>
+                <th>private</th>
+            </tr>
+            <tr>
+                <td class="azul">Misma clase</td>
+                <td class="si">SI</td>
+                <td class="si">SI</td>
+                <td class="si">SI</td>
+                <td class="si">SI</td>
+            </tr>
+            <tr>
+                <td class="azul">Mismo paquete</td>
+                <td class="si">SI</td>
+                <td class="si">SI</td>
+                <td class="si">SI</td>
+                <td class="no">NO</td>
+            </tr>
+            <tr>
+                <td class="azul">Subclase</td>
+                <td class="si">SI</td>
+                <td class="si">SI</td>
+                <td class="no">NO</td>
+                <td class="no">NO</td>
+            </tr>
+            <tr>
+                <td class="azul">Cualquier clase</td>
+                <td class="si">SI</td>
+                <td class="no">NO</td>
+                <td class="no">NO</td>
+                <td class="no">NO</td>
+            </tr>
+        </table>
+        <style>
+            table {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            th {
+                background-color: darkblue;
+                color: white;
+                font-family:'Consolas','Courier New', Courier, monospace;
+            }
+            td {
+                font-family: Arial, Helvetica, sans-serif;
+                width: 12em;
+                text-align: center;
+            }
+            td.azul {
+                background-color: lightblue;
+                text-align: left;
+            }
+            .si {
+                background-color: lightgreen;
+            }
+            .no {
+                background-color: lightcoral;
+            }
+        </style>
+    </body>
+</html>
