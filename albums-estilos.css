@@ -1,0 +1,27 @@
+body {
+    font-family: Aptos, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.renglon {
+    display: flex;
+}
+.album {
+    display: inline-block;
+    padding: 15px;
+}
+img.portada {
+    width: 180px;
+    height: 180px;
+}
+.titulo {
+    font-weight: bold;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+.artista {
+    font-weight: 700;
+    margin-bottom: 0.8ex;
+}
+.datos {
+    color:darkslategray;
+}
