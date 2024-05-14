@@ -5,16 +5,45 @@
             <li><a href="pagina.html">Primera página</a></li>
             <li><a href="starwars.html">Star Wars</a></li>
         </ul>
-        <a href="/webstorm/" class="_card_1fwxbmz_6 _themeDark_1fwxbmz_49 _modeClassic_1fwxbmz_59 _paddings24_1fwxbmz_201 _bordersRadius16_1fwxbmz_217 _withStaticBorder_1fwxbmz_43 _withStatesBorder_1fwxbmz_81 main-developers-ide-card wt-col-4 wt-col-md-6 wt-col-sm-12 wt-offset-top-32 wt-offset-top-sm-24">
-            <div class="wt-row wt-row_align-items_center wt-row_size_m">
-                <div class="wt-col-inline main-developers-ide-card__logo">
-                    <img src="sw-ra.png">
+        <a href="starwars.html" class="clase_a">
+            <div class="div_contenedor">
+                <div class="div_logo">
+                    <img src="sw-ra.png" width="72px">
                 </div>
-                <div class="wt-col-auto-fill">
-                    <h4 class="rs-h3 rs-h3_theme_dark">WebStorm</h4>
-                    <p class="rs-text-2 rs-text-2_hardness_hard rs-text-2_theme_dark wt-offset-top-8">IDE for JavaScript</p>
+                <div class="div_texto">
+                    <h4 class="rs-h3 rs-h3_theme_dark">StarWars</h4>
+                    <p class="rs-text-2 rs-text-2_hardness_hard rs-text-2_theme_dark wt-offset-top-8">Starting screen</p>
                 </div>
             </div>
         </a>
+        <style>
+            .clase_a {
+                border-color: rgb(123,97,255);
+                border-width: 0.8px;
+                border-style: solid;
+                border-radius: 16px;
+                display: block;
+                background-image: linear-gradient(130deg, #5a1fd0 10%, 
+                    rgba(46, 16, 106, 0) 70%);
+                background-size: 300% 300%;
+                text-decoration-line: none;
+                width: 320px;
+                padding: 24px;
+            }
+            .div_contenedor {
+                display: flex;
+                vertical-align: baseline;
+            }
+            .div_logo {
+                display: block;
+            }
+            .div_texto {
+                display: block;
+                font-family: JetBrains Sans, Helvetica, Arial, sans-serif;
+                color: white;
+                margin-left: 16px;
+                margin-right: 16px;
+            }
+        </style>
     </body>
 </html>
